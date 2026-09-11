@@ -1,0 +1,56 @@
+:root {
+    /* =========================
+            Brand Colors
+    ========================= */
+
+    --color-primary: #54ACF9;
+    --color-primary-dark: #000D30;
+
+    --color-secondary: #013047;
+    --color-secondary-blue: #012455;
+
+    --color-white: #FFFFFF;
+    --color-text-secondary: #A8B4C2;
+
+
+    /* =========================
+            Background Colors
+     ========================== */
+
+    --bg-primary: #000D30;
+    --bg-secondary: #013047;
+    --bg-card: #012455;
+    --bg-white: #FFFFFF;
+
+
+    /* =========================
+            Text Colors
+      ========================= */
+
+    --text-primary: #FFFFFF;
+    --text-secondary: #737a83;
+    --text-dark: #000D30;
+    --color-blue: #25aae1;
+
+    /* =========================
+            Typography
+      ========================= */
+    
+    --font-primary: "Roboto", sans-serif;
+
+    /* =========================
+            Border Radius
+      ========================= */
+
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+
+
+    /* =========================
+            Transitions
+      ========================= */
+
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+}

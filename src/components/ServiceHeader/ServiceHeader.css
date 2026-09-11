@@ -1,0 +1,47 @@
+.al3-service-header {
+    background: linear-gradient(135deg, #0d1b3e 0%, #162b5d 100%);
+    padding: 60px 0;
+    color: #ffffff;
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.al3-service-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+    letter-spacing: -0.5px;
+}
+
+.al3-service-breadcrumb {
+    font-size: 0.95rem;
+}
+
+.al3-service-breadcrumb .breadcrumb-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.al3-service-breadcrumb .breadcrumb-link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.al3-service-breadcrumb .separator {
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 4px;
+}
+
+.al3-service-breadcrumb .current-page {
+    font-weight: 500;
+}
+
+/* التجاوب مع الشاشات الصغيرة */
+@media (max-width: 768px) {
+    .al3-service-header {
+        padding: 40px 0;
+    }
+    .al3-service-title {
+        font-size: 1.8rem;
+    }
+}

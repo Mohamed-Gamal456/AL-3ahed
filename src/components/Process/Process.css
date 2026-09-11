@@ -1,0 +1,392 @@
+/* =========================================
+   AL-3AHED PROCESS SECTION
+========================================= */
+
+.al3-process {
+    position: relative;
+    padding: 100px 0;
+    background: var(--bg-white);
+    overflow: hidden;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.al3-process-header {
+    max-width: 900px;
+    margin: 0 auto 65px;
+    text-align: center;
+}
+
+/* Badge */
+
+.al3-process-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 18px;
+    border-radius: 50px;
+    background: rgba(84, 172, 249, 0.10);
+    color: var(--color-blue);
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    margin-bottom: 14px;
+}
+
+/* Title */
+
+.al3-process-title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.al3-process-title-wrapper h2 {
+    margin: 0;
+    color: var(--color-primary-dark);
+    font-size: clamp(30px, 4vw, 42px);
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+.al3-process-title-line {
+    width: 32px;
+    height: 1px;
+    background: rgba(0, 13, 48, 0.35);
+}
+
+/* Description */
+
+.al3-process-header p {
+    max-width: 820px;
+    margin: 20px auto 0;
+    color: #64748b;
+    font-size: 16px;
+    line-height: 2;
+}
+
+/* =========================================
+   PROCESS WRAPPER
+========================================= */
+
+.al3-process-wrapper {
+    position: relative;
+}
+
+/* Connecting Line */
+
+.al3-process-line {
+    position: absolute;
+    top: 31px;
+    left: 8%;
+    right: 8%;
+    height: 2px;
+    background: linear-gradient(
+        90deg,
+        var(--color-primary),
+        #25aae1,
+        var(--color-primary)
+    );
+    z-index: 0;
+}
+
+/* =========================================
+   PROCESS ITEM
+========================================= */
+
+.al3-process-item {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* =========================================
+   ICON
+========================================= */
+
+.al3-process-icon-wrapper {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    margin-bottom: 15px;
+}
+
+/* Icon Box */
+
+.al3-process-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: linear-gradient(
+        135deg,
+        var(--color-blue),
+        var(--color-primary)
+    );
+    color: var(--color-white);
+    font-size: 25px;
+    box-shadow:
+        0 10px 25px rgba(37, 170, 225, 0.25);
+}
+
+/* Number */
+
+.al3-process-number {
+    position: absolute;
+    top: -9px;
+    left: -9px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--color-primary-dark);
+    color: var(--color-white);
+    font-size: 11px;
+    font-weight: 800;
+    border: 2px solid var(--color-white);
+    z-index: 3;
+}
+
+/* =========================================
+   CARD
+========================================= */
+
+.al3-process-card {
+    width: 100%;
+    min-height: 190px;
+    padding: 23px 22px;
+    background: #f7f9fc;
+    border: 1px solid rgba(0, 13, 48, 0.08);
+    border-radius: 16px;
+    text-align: center;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease,
+        background-color 0.3s ease;
+}
+
+.al3-process-card:hover {
+    transform: translateY(-6px);
+    background: var(--color-white);
+    border-color: rgba(84, 172, 249, 0.3);
+    box-shadow:
+        0 15px 35px rgba(0, 13, 48, 0.09);
+}
+
+
+.al3-process-card h3 {
+    margin: 0 0 12px;
+    color: var(--color-primary-dark);
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.al3-process-card p {
+    margin: 0;
+    color: #68778a;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+/* =========================================
+   NOTE
+========================================= */
+
+.al3-process-note {
+    max-width: 700px;
+    margin: 40px auto 25px;
+    padding: 18px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: rgba(84, 172, 249, 0.07);
+    border: 1px solid rgba(84, 172, 249, 0.22);
+    border-radius: 12px;
+    text-align: center;
+}
+
+
+.al3-process-note i {
+    flex-shrink: 0;
+    color: var(--color-blue);
+    font-size: 18px;
+}
+
+.al3-process-note p {
+    margin: 0;
+    color: var(--color-primary-dark);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+
+/* =========================================
+   CTA
+========================================= */
+
+.al3-process-cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+.al3-process-button {
+    min-width: 280px;
+    padding: 15px 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 10px;
+    background: linear-gradient(
+        135deg,
+        var(--color-blue),
+        #209bd0
+    );
+    color: var(--color-white);
+    font-size: 15px;
+    font-weight: 800;
+    text-decoration: none;
+    box-shadow:
+        0 10px 25px rgba(37, 170, 225, 0.22);
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.al3-process-button i {
+    transition: transform 0.3s ease;
+}
+
+.al3-process-button:hover {
+    color: var(--color-white);
+    transform: translateY(-3px);
+    box-shadow:
+        0 15px 30px rgba(37, 170, 225, 0.3);
+}
+
+.al3-process-button:hover i {
+    transform: translateX(5px);
+}
+
+
+/* =========================================
+   RTL
+========================================= */
+
+html[dir="rtl"] .al3-process-number {
+    left: auto;
+    right: -9px;
+}
+
+html[dir="rtl"] .al3-process-button:hover i {
+    transform: translateX(-5px);
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991.98px) {
+
+    .al3-process {
+        padding: 80px 0;
+    }
+
+    .al3-process-header {
+        margin-bottom: 50px;
+    }
+
+    .al3-process-line {
+        display: none;
+    }
+
+    .al3-process-card {
+        min-height: 180px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767.98px) {
+
+    .al3-process {
+        padding: 65px 0;
+    }
+
+    .al3-process-header {
+        margin-bottom: 40px;
+    }
+
+    .al3-process-title-wrapper {
+        gap: 8px;
+    }
+
+    .al3-process-title-line {
+        width: 20px;
+    }
+
+    .al3-process-header p {
+        font-size: 14px;
+        line-height: 1.9;
+    }
+
+    .al3-process-card {
+        min-height: auto;
+        padding: 22px 20px;
+    }
+
+    .al3-process-note {
+        padding: 16px 18px;
+    }
+
+    .al3-process-note p {
+        font-size: 13px;
+    }
+
+    .al3-process-button {
+        width: 100%;
+        min-width: auto;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 400px) {
+
+    .al3-process {
+        padding: 55px 0;
+    }
+
+    .al3-process-title-line {
+        display: none;
+    }
+
+    .al3-process-badge {
+        font-size: 12px;
+    }
+
+}

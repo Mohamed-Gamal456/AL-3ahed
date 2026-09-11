@@ -1,0 +1,365 @@
+/* =========================================
+   AL-3AHED FAQ
+========================================= */
+
+.al3-faq {
+    padding: 100px 0;
+    background: #f7f9fc;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.al3-faq-header {
+    max-width: 760px;
+    margin: 0 auto 55px;
+    text-align: center;
+}
+
+.al3-faq-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 8px 18px;
+
+    margin-bottom: 15px;
+
+    border-radius: 50px;
+
+    background: rgba(84, 172, 249, 0.1);
+    color: var(--color-blue);
+
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.al3-faq-header h2 {
+    margin: 0;
+
+    color: var(--color-primary-dark);
+
+    font-size: clamp(32px, 4vw, 46px);
+    font-weight: 800;
+
+    line-height: 1.3;
+}
+
+.al3-faq-line {
+    display: block;
+
+    width: 75px;
+    height: 4px;
+
+    margin: 18px auto 20px;
+
+    border-radius: 50px;
+
+    background: linear-gradient(
+        90deg,
+        var(--color-blue),
+        var(--color-primary)
+    );
+}
+
+.al3-faq-header p {
+    max-width: 650px;
+
+    margin: 0 auto;
+
+    color: #68778a;
+
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+
+/* =========================================
+   FAQ LIST
+========================================= */
+
+.al3-faq-list {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+}
+
+
+/* =========================================
+   FAQ ITEM
+========================================= */
+
+.al3-faq-item {
+    margin-bottom: 0;
+
+    background: var(--color-white);
+
+    border: 1px solid rgba(0, 13, 48, 0.08);
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    transition:
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.al3-faq-item.is-open {
+    border-color: rgba(84, 172, 249, 0.35);
+
+    box-shadow:
+        0 10px 30px rgba(0, 13, 48, 0.07);
+}
+
+
+/* =========================================
+   QUESTION
+========================================= */
+
+.al3-faq-question {
+    width: 100%;
+
+    min-height: 72px;
+
+    padding: 18px 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 20px;
+
+    color: var(--color-primary-dark);
+
+    text-align: start;
+
+    font-size: 16px;
+    font-weight: 800;
+
+    cursor: pointer;
+
+    background: transparent;
+}
+
+.al3-faq-question span:first-child {
+    flex: 1;
+}
+
+
+/* =========================================
+   PLUS / MINUS
+========================================= */
+
+.al3-faq-icon {
+    width: 36px;
+    height: 36px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: rgba(84, 172, 249, 0.1);
+
+    color: var(--color-primary);
+
+    font-size: 14px;
+
+    transition:
+        transform 0.3s ease,
+        background-color 0.3s ease,
+        color 0.3s ease;
+}
+
+.al3-faq-item.is-open .al3-faq-icon {
+    background: var(--color-primary);
+    color: var(--color-white);
+
+    transform: rotate(180deg);
+}
+
+
+/* =========================================
+   ANSWER
+========================================= */
+
+.al3-faq-answer {
+    display: grid;
+
+    transition:
+        grid-template-rows 0.35s ease;
+}
+
+.al3-faq-answer-inner {
+    min-height: 0;
+    overflow: hidden;
+}
+
+.al3-faq-answer p {
+    margin: 0;
+
+    padding: 0 22px 22px;
+
+    color: #68778a;
+
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+
+/* =========================================
+   OPEN QUESTION
+========================================= */
+
+.al3-faq-item.is-open .al3-faq-question {
+    color: var(--color-blue);
+}
+
+
+/* =========================================
+   CTA
+========================================= */
+
+.al3-faq-cta {
+    max-width: 900px;
+
+    margin: 40px auto 0;
+
+    padding: 25px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 25px;
+
+    background: var(--color-primary-dark);
+
+    border-radius: 16px;
+
+    box-shadow:
+        0 12px 30px rgba(0, 13, 48, 0.12);
+}
+
+.al3-faq-cta p {
+    margin: 0;
+
+    color: var(--color-white);
+
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.al3-faq-button {
+    flex-shrink: 0;
+
+    padding: 12px 20px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    background: var(--color-primary);
+
+    color: var(--color-primary-dark);
+
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: 800;
+
+    transition:
+        transform 0.3s ease,
+        background-color 0.3s ease;
+}
+
+.al3-faq-button:hover {
+    background: #1877D2;
+    color: var(--color-white);
+
+    transform: translateY(-2px);
+}
+
+.al3-faq-button i {
+    transition: transform 0.3s ease;
+}
+
+.al3-faq-button:hover i {
+    transform: translateX(4px);
+}
+
+
+/* =========================================
+   RTL
+========================================= */
+
+html[dir="rtl"] .al3-faq-button:hover i {
+    transform: translateX(-4px);
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 767.98px) {
+
+    .al3-faq {
+        padding: 70px 0;
+    }
+
+    .al3-faq-header {
+        margin-bottom: 40px;
+    }
+
+    .al3-faq-header p {
+        font-size: 14px;
+    }
+    .al3-faq-list {
+        grid-template-columns: 1fr;
+    }
+    .al3-faq-question {
+        min-height: 65px;
+
+        padding: 16px 17px;
+
+        font-size: 14px;
+    }
+
+    .al3-faq-icon {
+        width: 32px;
+        height: 32px;
+
+        font-size: 12px;
+    }
+
+    .al3-faq-answer p {
+        padding: 0 17px 18px;
+
+        font-size: 14px;
+    }
+
+    .al3-faq-cta {
+        flex-direction: column;
+
+        padding: 22px 18px;
+
+        text-align: center;
+    }
+
+    .al3-faq-button {
+        width: 100%;
+    }
+}

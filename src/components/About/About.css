@@ -1,0 +1,493 @@
+/* =========================
+   About Section
+========================= */
+
+.about {
+    position: relative;
+    padding: 40px 0;
+    background-color: var(--bg-white);
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+/* =========================
+   Background Glow
+========================= */
+
+.about::before {
+    content: "";
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 50%;
+    left: -200px;
+    transform: translateY(-50%);
+    background: var(--color-primary);
+    opacity: 0.08;
+    filter: blur(120px);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+
+/* =========================
+   Container
+========================= */
+
+.about .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* =========================
+   Image
+========================= */
+
+.about-image {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 450px;
+
+    padding: 30px;
+}
+
+
+/* Image Glow */
+
+.about-image::before {
+    content: "";
+
+    position: absolute;
+
+    width: 280px;
+    height: 280px;
+
+    background: var(--color-primary);
+
+    opacity: 0.12;
+
+    filter: blur(80px);
+
+    border-radius: 50%;
+
+    z-index: -1;
+}
+
+
+/* Image */
+
+.about-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.05));
+    transition: transform var(--transition-normal);
+}
+
+.about-image img:hover {
+    transform: translateY(-8px);
+}
+
+/* =========================
+   Content
+========================= */
+
+.about-content {
+    padding: 20px 30px;
+}
+
+
+/* =========================
+   Title
+========================= */
+
+.about-content h2 {
+    margin-bottom: 25px;
+    font-size: clamp(30px, 4vw, 46px);
+    line-height: 1.25;
+    font-weight: 800;
+    color: var(--text-dark);
+}
+
+
+/* Highlight */
+
+.about-content h2::after {
+    content: "";
+    display: block;
+    width: 135px;
+    height: 3px;
+    margin-top: 18px;
+    background: var(--color-primary);
+    border-radius: 10px;
+}
+
+
+/* =========================
+   Description
+========================= */
+
+.about-description {
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.9;
+    color: var(--text-secondary);
+    max-width: 700px;
+}
+
+
+/* =========================
+   Points
+========================= */
+
+.about-points {
+    list-style: none;
+    margin: 0 0 25px;
+    padding: 0;
+}
+
+
+.about-points li {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 18px;
+    color: var( --color-blue);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+
+/* Check Icon */
+
+.about-points li i {
+    flex-shrink: 0;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(84, 172, 249, 0.12);
+    color: var(--color-primary);
+    font-size: 12px;
+    border: 1px solid rgba(84, 172, 249, 0.25);
+}
+
+
+/* =========================
+   Closing Paragraph
+========================= */
+
+.about-closing {
+    margin: 0;
+    padding-top: 22px;
+    border-top: 1px solid rgba(84, 172, 249, 0.2);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.9;
+    color: var(--text-secondary);
+    max-width: 700px;
+}
+
+
+/* =========================
+   RTL Support
+========================= */
+
+[dir="rtl"] .about-content {
+    text-align: right;
+}
+
+[dir="rtl"] .about-points li {
+    flex-direction: row;
+}
+
+[dir="rtl"] .about-content h2::after {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+/* =========================
+   LTR Support
+========================= */
+
+[dir="ltr"] .about-content {
+    text-align: left;
+}
+[dir="ltr"] .about-content h2::after {
+    margin-left: 0;
+}
+
+/* =========================
+   Tablet
+========================= */
+
+@media (max-width: 991.98px) {
+
+    .about {
+        padding: 80px 0;
+    }
+    .about-image {
+        min-height: auto;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .about-image img {
+        max-width: 380px;
+    }
+
+    .about-content {
+        padding: 20px 10px;
+    }
+
+    .about-content h2 {
+        font-size: 36px;
+    }
+
+}
+
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 575.98px) {
+
+    .about {
+        padding: 60px 0;
+    }
+
+    .about-image {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .about-image img {
+        max-width: 300px;
+    }
+
+    .about-content {
+        padding: 10px 5px;
+    }
+
+    .about-content h2 {
+        font-size: 29px;
+        margin-bottom: 20px;
+    }
+
+    .about-description {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .about-points li {
+        font-size: 14px;
+        gap: 10px;
+        margin-bottom: 14px;
+    }
+
+    .about-points li i {
+        width: 25px;
+        height: 25px;
+        font-size: 11px;
+    }
+
+    .about-closing {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+}
+
+
+
+/* ========================================================
+=================Marketing & ALaahed Tools=================
+========================================================= */
+.footer-about{
+    margin-top: 90px;
+    padding: 30px 0;
+    /* background-color: #bec7d2; */
+    border-radius: 12px;
+    box-shadow:
+        0 15px 35px rgba(0, 13, 48, 0.10),
+        inset 8px 0 15px rgba(0, 13, 48, 0.035),
+        inset -8px 0 15px rgba(253, 253, 253, 0.035);
+
+    border: 1px solid rgba(84, 172, 249, 0.08);
+}
+
+
+/* =========================
+     Tools-Description
+========================= */
+
+.description{
+    border-bottom: #e4e4e4 solid 1px;
+}
+.tools-title {
+    display: block;
+    margin: 10px 0;
+    color: var(--text-dark);
+    font-weight: 800;
+    font-size: 25px;
+}
+.tools-description {
+    display: block;
+    margin: 10px 0;
+    color: var(--text-secondary);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+/* =========================
+   Tools Marquee
+========================= */
+
+.tools-marquee {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 10px 0;
+
+    /* مهم جدًا */
+    direction: ltr;
+}
+
+/* =========================
+   Track
+========================= */
+
+.tools-track {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: max-content;
+    will-change: transform;
+
+    /* مهم جدًا في العربي */
+    direction: ltr;
+}
+/* =========================
+   Tool Item
+========================= */
+/* =========================
+   Row 1 - Light Blue
+========================= */
+
+.tools-track-left .tool-item {
+    background-color: #EEF5FF;
+    color: var(--color-primary-dark);
+
+    border: 1px solid #DCEBFA;
+}
+
+
+/* =========================
+   Row 2 - Light Cyan
+========================= */
+
+.tools-track-right .tool-item {
+    background-color: #EAF7F8;
+    color: var(--color-primary-dark);
+
+    border: 1px solid #D7EEF0;
+}
+
+.tool-item {
+    min-width: 160px;
+    padding: 10px 12px;
+    border-radius: 30px;
+    border: 1px solid rgba(84, 172, 249, 0.15);
+    font-weight: 600;
+    font-size: 14px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: var(--transition-normal);
+}
+
+.tool-item i {
+    font-size: 16px;
+    color: var(--color-primary);
+}
+
+.tool-item:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(84, 172, 249, 0.15);
+}
+
+
+/* =========================
+   Right → Left
+========================= */
+
+.tools-track-left {
+    animation: toolsLeft 35s linear infinite;
+}
+
+/* =========================
+   Left → Right
+========================= */
+
+.tools-track-right {
+    animation: toolsRight 35s linear infinite;
+}
+
+
+/* =========================
+   Animations
+========================= */
+
+@keyframes toolsLeft {
+
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+
+}
+
+
+@keyframes toolsRight {
+
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+
+}
+
+
+/* =========================
+   Hover
+========================= */
+
+.tools-marquee:hover .tools-track {
+    animation-play-state: paused;
+}

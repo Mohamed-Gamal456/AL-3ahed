@@ -1,0 +1,166 @@
+/* Badges & Titles */
+.section-badge {
+    display: inline-block;
+    background-color: rgba(84, 172, 249, 0.12);
+    color: var(--color-primary, #54acf9);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.section-main-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.4;
+}
+
+.section-subtitle {
+    max-width: 720px;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* Story Section */
+.alahed-story-section {
+    background-color: #ffffff;
+}
+
+.features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #f8fafc;
+    padding: 12px 18px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    width: 90%;
+}
+
+.feature-item .check-icon {
+    color: var(--color-primary, #54acf9);
+    font-size: 18px;
+}
+
+.feature-item span {
+    font-weight: 600;
+    color: #334155;
+    font-size: 14px;
+}
+
+/*===============story==============*/
+.card-image{
+    padding: 0 23px;
+}
+.story-image-card {
+    background: linear-gradient(145deg, #0d1b3e, #1a2f5c);
+    border-radius: 24px;
+    padding: 60px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    box-shadow: 0 20px 40px rgba(13, 27, 62, 0.15);
+    height: 420px;
+}
+
+.story-logo {
+    max-width: 280px;
+    height: auto;
+    margin-bottom: 20px;
+    transition: 0.6s;
+}
+.story-logo:hover {
+    transform: scale(1.1);
+}
+
+.story-image-card h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.story-image-card p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    margin: 0;
+}
+
+.story-image-card h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.story-image-card p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Why Us Section */
+.alahed-whyus-section {
+    background-color: #f8fafc;
+}
+
+.why-card {
+    background: #ffffff;
+    padding: 30px 20px;
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+    height: 100%;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.why-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.06);
+    border-color: var(--color-primary, #54acf9);
+}
+
+.card-icon {
+    width: 55px;
+    height: 55px;
+    background: rgba(84, 172, 249, 0.1);
+    color: var(--color-primary, #54acf9);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 22px;
+}
+
+.why-card h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 12px;
+}
+
+.why-card p {
+    font-size: 13px;
+    color: #64748b;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .story-image-card {
+        height: 300px;
+    }
+}
+@media (max-width: 786px) {
+    .feature-item {
+        width: 100%;
+    }
+}

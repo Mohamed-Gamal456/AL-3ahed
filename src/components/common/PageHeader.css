@@ -1,0 +1,118 @@
+.al3-page-header {
+    background: linear-gradient(135deg, #0d1b3e 0%, #162850 100%);
+    color: #ffffff;
+    padding: 60px 0 50px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.al3-header-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.al3-breadcrumb {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.al3-breadcrumb a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.al3-breadcrumb a:hover {
+    color: var(--color-primary, #54acf9);
+}
+
+.al3-breadcrumb .separator {
+    margin: 0 8px;
+}
+
+.al3-breadcrumb .current {
+    color: var(--color-primary, #54acf9);
+    font-weight: 600;
+}
+
+.al3-header-badge {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.al3-header-title {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.al3-header-desc {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 650px;
+    margin: 0 auto 30px;
+    line-height: 1.7;
+}
+
+.al3-header-btns {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 45px;
+}
+
+.btn-primary-custom {
+    background: var(--color-primary, #54acf9);
+    color: #0d1b3e;
+    font-weight: 700;
+    padding: 10px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn-secondary-custom {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-weight: 600;
+    padding: 10px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* Stats Row */
+.al3-header-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.al3-stat-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 18px 10px;
+    border-radius: 14px;
+    backdrop-filter: blur(8px);
+}
+
+.al3-stat-card h3 {
+    font-size: 26px;
+    font-weight: 800;
+    margin: 0;
+    color: #fff;
+}
+
+.al3-stat-card p {
+    font-size: 13px;
+    margin: 5px 0 0;
+    color: rgba(255, 255, 255, 0.7);
+}

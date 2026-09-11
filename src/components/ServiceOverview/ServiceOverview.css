@@ -1,0 +1,51 @@
+.al3-service-overview {
+    background-color: #ffffff;
+}
+
+.al3-overview-title {
+    font-size: 2rem;
+    color: #0d1b3e !important;
+    line-height: 1.3;
+}
+
+.al3-overview-desc {
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.al3-overview-features .feature-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #0d6efd;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.al3-overview-features .feature-text {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.al3-overview-subtitle {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 15px;
+}
+
+.al3-overview-image-wrapper {
+    background: #ffffff;
+    border-color: #eaeaea !important;
+    transition: transform 0.3s ease;
+}
+
+.al3-overview-image-wrapper:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 991px) {
+    .al3-overview-title {
+        font-size: 1.6rem;
+    }
+}

@@ -1,0 +1,449 @@
+{
+    "sectionHeader": {
+        "badge": "Our Services",
+        "title": "Examples of Our Work",
+        "subtitle": "Real projects executed by our team — design, development, and measurable results."
+    },
+
+    "paid-ads": {
+        "categories": [
+            {
+                "key": "all",
+                "label": "All"
+            },
+            {
+                "key": "messages",
+                "label": "Message Campaigns"
+            },
+            {
+                "key": "engagement",
+                "label": "Engagement & Video"
+            },
+            {
+                "key": "reach",
+                "label": "Reach & Awareness"
+            }
+        ],
+
+        "projects": {
+            "1": {
+                "title": "New Ad 11/2 for MDT",
+                "description": "Paid advertising campaign focused on generating inquiries and conversations."
+            },
+            "2": {
+                "title": "Hawak Tayyib AC Cleaning",
+                "description": "Local targeting campaign for home services to increase maintenance requests."
+            },
+            "3": {
+                "title": "Keeta App - Trajco KSA (1)",
+                "description": "Promotional campaign designed to increase conversations and app sales."
+            },
+            "4": {
+                "title": "Keeta App - Trajco KSA (2)",
+                "description": "Continuation of the advertising campaign focused on improving conversation cost and performance."
+            },
+            "5": {
+                "title": "Hungerstation App",
+                "description": "Promotional campaign targeting app users in Saudi Arabia."
+            },
+            "6": {
+                "title": "Keeta App for MDT",
+                "description": "Paid advertising campaign designed to attract interested customers and increase engagement."
+            },
+            "7": {
+                "title": "Trajco 24/7",
+                "description": "Fast messaging campaign designed to generate immediate service requests."
+            },
+            "8": {
+                "title": "1,000 Tissue Boxes - Print Plus",
+                "description": "Marketing campaign for paper products and commercial packaging focused on generating direct sales."
+            },
+            "9": {
+                "title": "Recruitment Campaign - Hawak Tayyib",
+                "description": "Recruitment campaign targeting technicians and qualified staff through messaging."
+            },
+            "10": {
+                "title": "Plastic Cans",
+                "description": "Marketing campaign for plastic products targeting companies and factories."
+            },
+            "11": {
+                "title": "Adham Tax Messages",
+                "description": "Tax and legal consulting campaign designed to encourage direct communication."
+            },
+            "12": {
+                "title": "Drivers - EPx Logistics",
+                "description": "Driver recruitment campaign for logistics and shipping services."
+            },
+            "13": {
+                "title": "New Ad Campaign - Engagement Objective",
+                "description": "Engagement campaign focused on increasing brand awareness and video views."
+            },
+            "14": {
+                "title": "Akher El Ankooud - School Uniforms",
+                "description": "Seasonal school uniform campaign designed to increase engagement and customer interest."
+            },
+            "15": {
+                "title": "Suhaib Perfumes Engagement",
+                "description": "Engagement advertising campaign promoting the new perfume collection."
+            },
+            "16": {
+                "title": "Lavino Engagement",
+                "description": "Visual campaign designed to build audience awareness and increase product engagement."
+            },
+            "17": {
+                "title": "El Ahed Distribution / Engagement",
+                "description": "Reach and engagement campaign promoting distribution offers."
+            },
+            "18": {
+                "title": "Mafo Arena Campaign",
+                "description": "Video views and engagement campaign for sports events and activities."
+            },
+            "19": {
+                "title": "El Senbaty Decoration",
+                "description": "Wide-reach campaign designed to introduce the audience to decoration products."
+            }
+        }
+    },
+    "graphic-design": {
+        "categories": [
+            {
+                "key": "all",
+                "label": "All"
+            },
+            {
+                "key": "egypt",
+                "label": "Egyptian Market"
+            },
+            {
+                "key": "saudi",
+                "label": "Saudi Market"
+            },
+            {
+                "key": "branding",
+                "label": "Brand Identity"
+            }
+        ],
+        "projects": {
+            "1": {
+                "title": "TrackGo Logistics",
+                "description": "Logo and visual identity design for TrackGo Logistics, a brand specializing in logistics services."
+            },
+            "2": {
+                "title": "Al Ahed Distribution",
+                "description": "Logo and visual identity design for Al Ahed Distribution, reflecting its transportation and distribution services."
+            },
+            "3": {
+                "title": "Hawak Tayyib HVAC",
+                "description": "Logo and visual identity design for Hawak Tayyib, a brand specializing in air conditioning and cooling services."
+            },
+            "4": {
+                "title": "El Senbaty Gypsum Board & Decor",
+                "description": "Logo and visual identity design for El Senbaty Gypsum Board & Decor, combining a premium look with a distinctive visual style."
+            },
+            "5": {
+                "title": "Naturel Care",
+                "description": "Logo and visual identity design for Naturel Care, a beauty and care brand with a soft and elegant visual direction."
+            },
+            "6": {
+                "title": "Lavino",
+                "description": "Logo and visual identity design for Lavino, a women's and children's clothing brand with a feminine and friendly visual identity."
+            },
+            "7": {
+                "title": "MDT - Multi-Destination Trips",
+                "description": "Logo and visual identity design for MDT, a travel brand specializing in multi-destination trips and transportation services."
+            },
+
+            "8": {
+                "title": "Baccalaureate Programming Ad",
+                "description": "Promotional advertising design for a programming course, highlighting the offer, booking details, and student testimonials."
+            },
+            "9": {
+                "title": "Qaa El Hamour - Baccalaureate Programming",
+                "description": "Creative promotional design for a programming course using a distinctive visual concept connected to programming content."
+            },
+            "10": {
+                "title": "El Senbaty Gypsum Board & Decor",
+                "description": "Advertising design showcasing gypsum board, cornices, marble alternatives, wood alternatives, and decorative wall panels."
+            },
+            "11": {
+                "title": "El Senbaty - Modern Decorations",
+                "description": "Advertising design presenting modern ceiling designs, interior decoration, and finishing work with a focus on quality and variety."
+            },
+            "12": {
+                "title": "El Senbaty - Decoration Projects",
+                "description": "Visual portfolio design showcasing examples of El Senbaty's gypsum board and interior decoration projects."
+            },
+            "13": {
+                "title": "Lavino",
+                "description": "Promotional design for the opening of Lavino, a women's and children's clothing store, using a colorful and engaging visual style."
+            },
+            "14": {
+                "title": "Naturel Care - Skincare",
+                "description": "Promotional design for Naturel Care skincare products, highlighting the products and their beauty and care positioning."
+            },
+            "15": {
+                "title": "Naturel Care - Hair Serum",
+                "description": "Promotional design for a hair serum focusing on hydration, shine, and frizz control."
+            },
+            "16": {
+                "title": "Naturel Care - Hair Care Collection",
+                "description": "Promotional design showcasing a complete range of Naturel Care hair products as part of one care routine."
+            },
+            "17": {
+                "title": "Al Ahed Distribution - Kiri Mi & Kiri Qeshta",
+                "description": "Advertising design for dairy and distribution products, showcasing Kiri Mi and Kiri Qeshta under Al Ahed Distribution."
+            },
+            "18": {
+                "title": "Al Ahed Distribution - Al Ahed Cheese",
+                "description": "Promotional design for Al Ahed cheese, focusing on product presentation and its marketing message."
+            },
+            "19": {
+                "title": "Fresh Roumy Cheese",
+                "description": "Advertising design for cheese products with a strong visual focus on product presentation and market appeal."
+            },
+            "20": {
+                "title": "Hawak Tayyib - AC Cleaning & Maintenance",
+                "description": "Advertising design for air conditioning cleaning and maintenance services, highlighting the offer, services, and customer benefits."
+            },
+            "21": {
+                "title": "Hawak Tayyib - Regular AC Maintenance",
+                "description": "Educational advertising design explaining the importance of regular AC maintenance and its benefits for efficiency and energy consumption."
+            },
+            "22": {
+                "title": "Hawak Tayyib - Comfort for Your Family",
+                "description": "Promotional design focused on family comfort and reliable cooling through professional air conditioning services."
+            },
+            "23": {
+                "title": "Hawak Tayyib - Customer Comfort",
+                "description": "Advertising design highlighting AC service quality through speed, efficiency, warranty, and customer comfort."
+            },
+            "24": {
+                "title": "Akher El Ankooud - Children's Wear",
+                "description": "Promotional design for Akher El Ankooud highlighting children's clothing and helping customers choose suitable options based on style, comfort, and fabric."
+            },
+
+            "25": {
+                "title": "Heta International Technology - Delivery Services",
+                "description": "Promotional design for Heta's delivery services, focused on recruiting drivers to work with major delivery applications in Saudi Arabia."
+            },
+            "26": {
+                "title": "Heta - Delivery Fleet",
+                "description": "Advertising design showcasing Heta's delivery vehicle fleet and its operational presence in the Saudi market."
+            },
+            "27": {
+                "title": "Heta - Delivery Applications",
+                "description": "Promotional design encouraging drivers to register and work with major delivery applications across Saudi Arabia."
+            },
+            "28": {
+                "title": "MDT - Delivery Applications",
+                "description": "Advertising design highlighting MDT's delivery opportunities and access to several major delivery applications in Saudi Arabia."
+            },
+            "29": {
+                "title": "MDT - Noon Supermall",
+                "description": "Recruitment design promoting work opportunities with Noon Supermall and highlighting the benefits of joining as a driver."
+            },
+            "30": {
+                "title": "MDT - Delivery Applications in Saudi Arabia",
+                "description": "Promotional design presenting opportunities to work with several major delivery applications through MDT."
+            },
+            "31": {
+                "title": "MDT - Jahez Registration",
+                "description": "Recruitment design targeting drivers interested in joining Jahez and highlighting the registration requirements."
+            },
+            "32": {
+                "title": "MDT - Delivery Partners",
+                "description": "Advertising design showcasing several delivery applications partnered with MDT to highlight the variety of available opportunities."
+            },
+            "33": {
+                "title": "TrackGo Logistics - Delivery Drivers",
+                "description": "Recruitment design aimed at attracting delivery drivers to work with major delivery applications in Saudi Arabia."
+            },
+            "34": {
+                "title": "TrackGo Logistics - Driver Opportunities",
+                "description": "Promotional design focused on recruiting drivers and encouraging them to join the TrackGo delivery team."
+            },
+            "35": {
+                "title": "TrackGo Logistics - Driver Registration",
+                "description": "Recruitment design encouraging drivers to register and join TrackGo's delivery services."
+            },
+            "36": {
+                "title": "TrackGo Logistics - Delivery Driver Recruitment",
+                "description": "Advertising design promoting delivery driver opportunities and work with major delivery applications in the Saudi market."
+            },
+            "37": {
+                "title": "Heta - Delivery Partners",
+                "description": "Advertising design showcasing Heta's delivery services and its network of major delivery applications in Saudi Arabia."
+            }
+        }
+    },
+    "video-production": {
+        "categories": [
+            {
+                "key": "all",
+                "label": "All"
+            },
+            {
+                "key": "ai",
+                "label": "AI Video"
+            },
+            {
+                "key": "animation",
+                "label": "Animation Video"
+            },
+            {
+                "key": "video",
+                "label": "Video Production"
+            }
+        ],
+        "projects": {
+            "1": {
+                "title": "AI Hair Care Products",
+                "description": "Creative AI video showcasing six hair care products, with each product presented as a solution for a specific hair concern."
+            },
+            "2": {
+                "title": "AI Software Engineer",
+                "description": "Creative AI video featuring a software engineer and visual scenes inspired by programming, technology, and the digital world."
+            },
+            "3": {
+                "title": "AI Perfume Store",
+                "description": "Creative AI video for a perfume store, presenting the fragrance experience through premium, cinematic, and visually engaging scenes."
+            },
+            "4": {
+                "title": "AI AL-3AHED Company Video",
+                "description": "Creative AI video created for AL-3AHED, showcasing the company and its team through modern, imaginative AI-generated visuals."
+            },
+            "5": {
+                "title": "MDT Delivery Services",
+                "description": "Animated video presenting MDT as a logistics company providing delivery drivers for major delivery applications in Saudi Arabia."
+            },
+            "6": {
+                "title": "TrackGO Logistics",
+                "description": "Animated promotional video highlighting TrackGO's logistics and driver recruitment services for delivery applications in Saudi Arabia."
+            },
+            "7": {
+                "title": "TrackGO Logistics",
+                "description": "Animated video created for TrackGO to communicate its delivery driver opportunities and logistics services in a clear and engaging way."
+            },
+            "8": {
+                "title": "Heta International Technology",
+                "description": "Animated promotional video showcasing Heta's delivery services and opportunities for drivers working with major delivery applications in Saudi Arabia."
+            },
+            "9": {
+                "title": "Heta Delivery Services",
+                "description": "Animated video highlighting Heta's presence in the Saudi delivery market and its network of delivery application opportunities."
+            },
+            "10": {
+                "title": "Software Engineer Video",
+                "description": "Professional video featuring a software engineer explaining programming concepts in an informative and engaging format."
+            },
+            "11": {
+                "title": "Gypsum Board & Decorations",
+                "description": "Professional video showcasing and explaining gypsum board installation and interior decoration solutions."
+            },
+            "12": {
+                "title": "Mathematics Teacher",
+                "description": "Educational video featuring a mathematics teacher presenting lessons and concepts for students across different educational stages."
+            },
+            "13": {
+                "title": "Gypsum Board & Decorations",
+                "description": "A second professional video focused on gypsum board and interior decoration work, presenting the service in a clear visual format."
+            },
+            "14": {
+                "title": "Body & Face Care Products",
+                "description": "Product-focused video featuring a presenter explaining body and face care products and their key benefits."
+            },
+            "15": {
+                "title": "Fitness Coach",
+                "description": "Fitness-focused video featuring a gym coach and presenting training and fitness content in an engaging format."
+            },
+            "16": {
+                "title": "B2B Marketing - Saudi Market",
+                "description": "Business-focused video explaining how to target companies in the Saudi market and promote services to a B2B audience."
+            }
+        }
+    },
+    "social-media": {
+        "projects": {
+            "1": {
+                "title": "Social Media Page Management",
+                "description": "Professional management of social media pages with consistent publishing, organized content, and a strong brand presence."
+            },
+            "2": {
+                "title": "Content Planning & Calendar",
+                "description": "Strategic content planning and scheduling through an organized content calendar designed to maintain consistency and support business goals."
+            },
+            "3": {
+                "title": "Posts & Reels Management",
+                "description": "Creative posts and Reels designed and managed to increase reach, engagement, and audience interaction with the brand."
+            },
+            "4": {
+                "title": "Community Management",
+                "description": "Professional management of comments and messages with consistent communication that builds trust and strengthens customer relationships."
+            },
+            "5": {
+                "title": "Consistent Brand Identity",
+                "description": "Maintaining a unified visual identity across social media through consistent colors, typography, design style, and communication tone."
+            },
+            "6": {
+                "title": "Performance & Growth",
+                "description": "Monitoring and analyzing social media performance to measure results, identify opportunities, and continuously improve the growth strategy."
+            }
+        }
+    },
+    "content-creation": {
+        "projects": {
+            "1": {
+                "title": "Content Strategy",
+                "description": "We build a content strategy tailored to the brand, audience, and marketing goals, ensuring every piece of content has a clear purpose and real impact."
+            },
+            "2": {
+                "title": "Creative Content",
+                "description": "Creative ideas and content that help brands stand out, capture audience attention, and create a more memorable presence."
+            },
+            "3": {
+                "title": "Social Media Content",
+                "description": "Creating engaging and diverse content for social media platforms while maintaining a consistent brand style and identity."
+            },
+            "4": {
+                "title": "Reels & Short Videos",
+                "description": "Creative ideas, scripts, and content for Reels and short-form videos designed to increase reach, engagement, and brand awareness."
+            },
+            "5": {
+                "title": "Copywriting",
+                "description": "Writing engaging captions, hooks, and marketing messages in a tone that fits the brand and encourages the audience to interact and take action."
+            },
+            "6": {
+                "title": "Marketing Campaign Content",
+                "description": "Creating complete content for marketing campaigns, offers, and occasions to communicate the message clearly and achieve better results."
+            }
+        }
+    },
+    "marketing-strategy": {
+        "projects": {
+            "1": {
+                "title": "Marketing Strategy",
+                "description": "We develop a marketing strategy tailored to the brand by understanding its goals, market, and target audience to drive real growth."
+            },
+            "2": {
+                "title": "Market Research & Analysis",
+                "description": "We analyze the market, trends, and available opportunities to identify effective ways for the brand to compete and grow."
+            },
+            "3": {
+                "title": "Target Audience",
+                "description": "We identify the audience most interested in the product or service and understand their needs and behavior to deliver the right message."
+            },
+            "4": {
+                "title": "Competitor Analysis",
+                "description": "We study competitors and analyze their strengths, weaknesses, and opportunities to help the brand stand out and offer greater value."
+            },
+            "5": {
+                "title": "Marketing Plan",
+                "description": "We turn the strategy into a clear action plan covering marketing channels, content, campaigns, goals, and the steps required for execution."
+            },
+            "6": {
+                "title": "Performance & Optimization",
+                "description": "We continuously monitor and analyze performance, identify areas for improvement, and optimize the strategy to achieve better results over time."
+            }
+        }
+    }
+}

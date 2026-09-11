@@ -1,0 +1,236 @@
+/* =========================================
+   AL-3AHED CLIENTS
+========================================= */
+
+.al3-clients {
+    padding: 100px 0 90px;
+    background: var(--bg-white);
+    overflow: hidden;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.al3-clients-header {
+    max-width: 800px;
+    margin: 0 auto 55px;
+    text-align: center;
+}
+
+.al3-clients-header h2 {
+    margin: 0 0 18px;
+
+    color: var(--color-primary-dark);
+
+    font-size: clamp(32px, 4vw, 46px);
+    font-weight: 800;
+
+    line-height: 1.3;
+}
+
+.al3-clients-header p {
+    margin: 0 auto;
+
+    color: #64748b;
+
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.al3-clients-line {
+    display: block;
+
+    width: 80px;
+    height: 4px;
+
+    margin: 25px auto 0;
+
+    border-radius: 50px;
+
+    background: linear-gradient(
+        90deg,
+        var(--color-blue),
+        var(--color-primary-dark)
+    );
+}
+
+
+/* =========================================
+   SLIDER
+========================================= */
+
+.al3-clients-slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 5px 0 15px;
+
+    direction: ltr;
+}
+
+
+/* =========================================
+   TRACK
+========================================= */
+
+.al3-clients-track {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    gap: 28px;
+
+    direction: ltr;
+
+    animation: al3ClientsMove 30s linear infinite;
+    will-change: transform;
+}
+
+/* =========================================
+   PAUSE ON HOVER
+========================================= */
+
+.al3-clients-slider:hover .al3-clients-track {
+    animation-play-state: paused;
+}
+
+
+/* =========================================
+   CLIENT CARD
+========================================= */
+
+.al3-client-card {
+    flex: 0 0 210px;
+    width: 190px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 18px;
+    background: var(--color-white);
+    border: 1px solid rgba(0, 13, 48, 0.07);
+    border-radius: 18px;
+    box-shadow:
+        0 8px 25px rgba(0, 13, 48, 0.05);
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+}
+
+
+/* Card Hover */
+
+.al3-client-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(84, 172, 249, 0.3);
+    box-shadow:
+        0 15px 35px rgba(0, 13, 48, 0.1);
+}
+
+
+/* =========================================
+   LOGO
+========================================= */
+
+.al3-client-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: grayscale(15%);
+    transition:
+        transform 0.3s ease,
+        filter 0.3s ease;
+}
+
+.al3-client-card:hover img {
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+
+/* =========================================
+   INFINITE ANIMATION
+========================================= */
+
+@keyframes al3ClientsMove {
+
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991.98px) {
+
+    .al3-clients {
+        padding: 80px 0 70px;
+    }
+
+    .al3-clients-header {
+        margin-bottom: 45px;
+    }
+
+    .al3-client-card {
+        flex-basis: 190px;
+
+        width: 190px;
+        height: 125px;
+    }
+
+    .al3-clients-track {
+        gap: 22px;
+        animation-duration: 26s;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767.98px) {
+
+    .al3-clients {
+        padding: 65px 0 60px;
+    }
+
+    .al3-clients-header {
+        margin-bottom: 35px;
+    }
+
+    .al3-clients-header h2 {
+        font-size: 32px;
+    }
+
+    .al3-clients-header p {
+        font-size: 14px;
+    }
+
+    .al3-client-card {
+        flex-basis: 165px;
+
+        width: 165px;
+        height: 110px;
+
+        padding: 20px;
+
+        border-radius: 15px;
+    }
+
+    .al3-clients-track {
+        gap: 18px;
+        animation-duration: 23s;
+    }
+
+}

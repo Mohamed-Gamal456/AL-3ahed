@@ -1,0 +1,65 @@
+.alahed-cta-section {
+    background: linear-gradient(135deg, #1a3668 0%, #0d1b3e 100%);
+    padding: 80px 20px;
+    color: #ffffff;
+}
+
+.cta-title {
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.cta-subtitle {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 650px;
+    line-height: 1.8;
+}
+
+.btn-cta-main {
+    background-color: #2cb1e3; /* درجة الأزرق الفاتح في الصورة */
+    color: #ffffff;
+    border: none;
+    padding: 12px 30px;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.btn-cta-main:hover {
+    background-color: #2099c7;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.btn-cta-outline {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 12px 30px;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.btn-cta-outline:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+/* تعديل اتجاه الأيقونات للغة الإنجليزية */
+html[dir="ltr"] .btn-cta-main i,
+html[dir="ltr"] .btn-cta-outline i {
+    margin-left: 0 !important;
+    margin-right: 8px !important;
+}

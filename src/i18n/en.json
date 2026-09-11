@@ -1,0 +1,534 @@
+{
+    "Header": {
+        "home": "Home",
+        "about": "About",
+        "services": "services",
+        "projects": "Projects",
+        "contact": "Contact Us"
+    },
+    "Hero": {
+        "Label": "AL-3AHED MARKETING AGENCY",
+
+        "Title": "We Turn Your Ideas",
+
+        "TitleSpan": "Into Impactful Presence",
+
+        "Description": "Integrated marketing, content creation, and advertising solutions designed to help your brand grow and stand out.",
+
+        "contact": "Start Your Project",
+
+        "services": "Our Services",
+
+        "serviceCards": {
+            "paidAds": {
+                "title": "Paid Ads",
+                "description": "Meta & Google Ads"
+            },
+
+            "socialMedia": {
+                "title": "Social Media",
+                "description": "Management & Growth"
+            },
+
+            "contentCreation": {
+                "title": "Content Creation",
+                "description": "Design & Video"
+            },
+
+            "marketing": {
+                "title": "Marketing",
+                "description": "Plans & Strategies"
+            }
+        },
+
+        "badges": {
+            "creative": "Creative Marketing",
+            "content": "Monthly Content Plans"
+        },
+
+        "shortDescription": "We build complete marketing solutions — from creative content and paid advertising to social media management and professional video production.",
+
+        "stats": {
+            "projects": "Projects",
+            "designs": "Designs & Content",
+            "clients": "Clients"
+        },
+
+        "visual": {
+            "growth": "Growth",
+            "results": "Results",
+            "clients": "Clients"
+        }
+    },
+    "About": {
+        "Title": "More Than Marketing — We Build Your Digital Presence",
+        "Description": "At AL-3AHED Marketing Agency, we help businesses build a strong digital presence through creative marketing, professional content, and effective advertising strategies.",
+        "Points": {
+            "point1": "Creative marketing solutions tailored to your business",
+            "point2": "Strategic advertising designed to reach the right audience",
+            "point3": "Professional content that strengthens your brand identity"
+        },
+        "Closing_paragraph": "From social media management and paid advertising to creative design and video production, we provide integrated marketing solutions designed to help your brand grow, connect with its audience, and stand out",
+        "Marketing_tools": "Marketing & Digital Tools",
+        "Marketing_tools_description": "We use industry-leading marketing, advertising, design, and analytics tools to create smarter strategies and deliver better results."
+    },
+    "Services": {
+        "Title": "Our Services",
+        "Description": "Integrated marketing solutions designed to grow your brand, reach your audience, and turn your ideas into real results.",
+
+        "Service1": {
+            "Image": "paid-ads.png",
+            "Title": "Paid Advertising",
+            "Description": "Strategic advertising campaigns across Meta, Google, and other platforms to reach the right audience and maximize your results.",
+            "Button": "Learn More"
+        },
+
+        "Service2": {
+            "Image": "paid-ads.png",
+            "Title": "Social Media Management",
+            "Description": "Professional management of your social media pages with engaging content, consistent branding, and a clear growth strategy.",
+            "Button": "Learn More"
+        },
+
+        "Service3": {
+            "Image": "paid-ads.png",
+            "Title": "Content Creation",
+            "Description": "Creative and engaging content designed to showcase your brand, communicate your message, and capture your audience's attention.",
+            "Button": "Learn More"
+        },
+
+        "Service4": {
+            "Image": "paid-ads.png",
+            "Title": "Graphic Design",
+            "Description": "Professional designs that strengthen your visual identity and make your brand stand out across digital platforms.",
+            "Button": "Learn More"
+        },
+
+        "Service5": {
+            "Image": "paid-ads.png",
+            "Title": "Video Production",
+            "Description": "Professional video production and creative reels that turn your ideas into engaging visual content.",
+            "Button": "Learn More"
+        },
+
+        "Service6": {
+            "Image": "paid-ads.png",
+            "Title": "Marketing Strategy",
+            "Description": "Data-driven marketing strategies built around your business goals, audience, and market to achieve sustainable growth.",
+            "Button": "Learn More"
+        }
+    },
+    "Process": {
+        "Badge": "Our Process",
+        "Title": "How We Work With Your Company",
+        "Description": "A clear and simple process designed to turn your ideas into real results.",
+
+        "Step1": {
+            "Title": "Consultation & Planning",
+            "Description": "We understand your goals, challenges, audience, and current digital presence to define the right direction."
+        },
+
+        "Step2": {
+            "Title": "Strategy & Proposal",
+            "Description": "We build a clear marketing strategy with the right services, timeline, budget, and measurable goals."
+        },
+
+        "Step3": {
+            "Title": "Execution & Monitoring",
+            "Description": "Our team handles the content, design, advertising, and marketing activities while continuously monitoring performance."
+        },
+
+        "Step4": {
+            "Title": "Launch & Ongoing Support",
+            "Description": "We launch your campaigns, track the results, make improvements, and continue supporting your growth."
+        },
+
+        "Note": "No project starts without your approval — full transparency from day one.",
+
+        "Button": "Book Your Free Consultation"
+    },
+    "Clients": {
+        "Title": "Clients Who Trust Us",
+        "Description": "We are proud of the trust placed in us by shops and enterprises operating across various sectors."
+    },
+    "FAQ": {
+        "Badge": "Frequently Asked Questions",
+        "Title": "Questions You May Have",
+        "Description": "Everything you need to know about our services and how we work.",
+
+        "Question1": "What services does AL-3AHED provide?",
+        "Answer1": "We provide integrated marketing solutions including paid advertising, social media management, content creation, graphic design, video production, and marketing strategies.",
+
+        "Question2": "Can you fully manage our social media pages?",
+        "Answer2": "Yes. We can fully manage your social media pages, starting with content planning, design, and copywriting, through publishing, monitoring, and performance analysis.",
+
+        "Question3": "Do you offer paid advertising services?",
+        "Answer3": "Yes. We help create and manage advertising campaigns on the platforms most suitable for your business, with the right audience targeting, continuous monitoring, and performance optimization, while offering one of the lowest management rates on your advertising budget.",
+
+        "Question4": "Can you create content specifically for our brand?",
+        "Answer4": "Yes. We create professional content that matches your brand identity, including social media designs, advertising content, videos, and Reels.",
+
+        "Question5": "Can you work with a new business from scratch?",
+        "Answer5": "Absolutely. We help build your digital presence from the beginning, from defining the right marketing direction to preparing content, launching campaigns, and building your online presence.",
+
+        "Question6": "How do you determine the right strategy for my business?",
+        "Answer6": "We start by understanding your business, goals, target audience, and competitors. Then we determine the right channels, services, and strategy based on your specific objectives.",
+
+        "Question7": "Can I track campaign results and performance?",
+        "Answer7": "Yes. We continuously monitor campaign and content performance and analyze the data to identify strengths, opportunities, and areas that need improvement.",
+
+        "Question8": "How can I get started with AL-3AHED?",
+        "Answer8": "Simply contact us and tell us about your business and needs. We will discuss your goals and help you determine the most suitable services and strategy for your business.",
+
+        "CTA": "Have a question or need help choosing the right service?",
+        "Button": "Contact Us"
+    },
+    "WhyUs": {
+        "Badge": "Why Choose AL-3AHED?",
+        "Title": "Why Clients Choose AL-3AHED Marketing",
+        "Description": "AL-3AHED is more than just a marketing agency — we are your long-term growth partner. An integrated team of marketers, media buyers, content creators, and designers working together to build a powerful digital presence and maximize your ROI.",
+        "Cards": {
+            "card1": {
+                "Title": "Data-Driven Strategy",
+                "Description": "We analyze your audience, competitors, and market trends before launching campaigns to craft tailored marketing strategies that deliver real reach."
+            },
+            "card2": {
+                "Title": "Integrated Marketing Execution",
+                "Description": "From visual identity and social media management to paid ad campaigns and video production — everything seamlessly executed under one roof."
+            },
+            "card3": {
+                "Title": "Proven Marketing Expertise",
+                "Description": "Years of experience in digital marketing and ad management with a creative team of top media buyers, designers, and copywriters."
+            },
+            "card4": {
+                "Title": "Continuous Optimization & Support",
+                "Description": "We stay by your side: tracking ad performance, testing new hooks, refining content, and ensuring consistent growth for your brand."
+            }
+        },
+        "Stats": {
+            "projects": "+105 Successful Campaigns",
+            "experience": "+2 Years of Experience",
+            "clients": "+75 Happy Clients"
+        },
+        "Buttons": {
+            "start": "Get started with us now",
+            "explore": "Explore Our Services"
+        }
+    },
+    "Footer": {
+        "AboutTitle": "About AL-3AHED",
+        "AboutText": "AL-3AHED is a leading digital marketing agency specialized in social media management, paid advertising campaigns, content creation, and brand identity development.",
+        "LinksTitle": "Quick Links",
+        "Links": {
+            "home": "Home",
+            "about": "About Us",
+            "services": "Services",
+            "process": "Our Process",
+            "faq": "FAQ",
+            "contact": "Contact Us"
+        },
+        "ContactTitle": "Contact Us",
+        "FollowTitle": "Follow Us",
+        "FollowText": "Connect with us on social media",
+        "StartButton": "Start Your Project",
+        "Copyright": "All Rights Reserved © AL-3AHED Marketing Agency"
+    },
+    "AboutPage": {
+        "title": "About Us",
+        "breadcrumb": "About Us",
+        "badge": "Your Creative Partner & Digital Growth",
+        "description": "An integrated advertising & marketing agency — crafting visual identities, managing targeted ad campaigns, and providing digital solutions to grow your business.",
+        "storyTitle": "We innovate ideas.. to move the market in your favor",
+        "storyDesc": "At Al-Ahed Advertising, we don't just deliver fleeting ads; we build integrated strategies starting from market analysis and visual identity creation, to managing high-ROI paid campaigns.",
+        "stats": {
+        "campaigns": "Successful Ad Campaigns",
+        "experience": "Years of Market Experience",
+        "brands": "Brands Trusted Us",
+        "satisfaction": "Client Satisfaction Rate"
+        }
+    },
+    "PageHeader":{
+        "Start": "Start your project",
+        "MyStory": "Our Story"
+    },
+    "whyUsPage": {
+        "badge": "Why Alaahed?",
+        "title": "Why Clients Choose Alaahed?",
+        "subtitle": "Alaahed Marketing is not just a service provider — we are your long-term success partner. An integrated team delivering scalable & measurable results.",
+        "story": {
+            "badge": "Our Story",
+            "title": "AL-3AHED Marketing ... Your Creative Partner for Digital Growth",
+            "desc1": "An integrated marketing and advertising agency delivering comprehensive solutions for businesses. We empower brands with performance marketing, branding, and web solutions.",
+            "desc2": "At AL-3AHED Marketing, we take pride in delivering advanced campaign management, video production, and data-driven growth strategies.",
+            "features": [
+                "Specialized expertise in ad campaigns & content creation",
+                "Innovative design & software solutions for brand identity",
+                "Targeted marketing strategies for high ROI"
+            ]
+        },
+        "cards": {
+            "strategyTitle": "Data-Driven Strategy",
+            "strategyDesc": "We analyze your target audience and competitors to launch high-converting ad campaigns.",
+            "executionTitle": "Seamless Integrated Execution",
+            "executionDesc": "From branding, performance ads, to software — all under one unified roof.",
+            "experienceTitle": "Accumulated Market Expertise",
+            "experienceDesc": "A top-tier team of designers, marketers, and developers driving your brand forward.",
+            "supportTitle": "Continuous Support & Growth",
+            "supportDesc": "We stand by your side to monitor performance, optimize continuously, and ensure sustained growth."
+        },
+        "cta": {
+            "title": "Ready to scale your brand with a team that understands the market?",
+            "subtitle": "Book a free consultation and let us review your digital presence and build a clear strategy with measurable goals.",
+            "startBtn": "Start Your Project",
+            "servicesBtn": "Our Services"
+        }
+    },
+    "servicesSection": {
+        "badge": "Our Services",
+        "breadcrumb": "Our Services",
+        "title": "Integrated Marketing Solutions for Business Growth",
+        "subtitle": "We offer a comprehensive range of digital and creative services tailored to help you reach your goals and maximize sales.",
+        "items": [
+            {
+                "id": "paid-ads",
+                "icon": "fa-solid fa-rectangle-ad",
+                "title": "Paid Advertising",
+                "description": "High-converting campaigns across Meta, Google, TikTok & Snapchat to reach your target audience efficiently."
+            },
+            {
+                "id": "social-media",
+                "icon": "fa-solid fa-hashtag",
+                "title": "Social Media Management",
+                "description": "Complete account management including strategic planning, publishing, community engagement, and analytics."
+            },
+            {
+                "id": "content-creation",
+                "icon": "fa-solid fa-pen-nib",
+                "title": "Content Creation",
+                "description": "Crafting engaging marketing copy and content that communicates your brand value and builds trust."
+            },
+            {
+                "id": "branding",
+                "icon": "fa-solid fa-palette",
+                "title": "Branding & Visual Identity",
+                "description": "Designing distinctive visual identities and logos that make your brand stand out in the market."
+            },
+            {
+                "id": "video-production",
+                "icon": "fa-solid fa-video",
+                "title": "Video Production & Reels",
+                "description": "Professional video editing, filming, and short-form video (Reels) tailored for modern social algorithms."
+            },
+            {
+                "id": "web-solutions",
+                "icon": "fa-solid fa-code",
+                "title": "Web Development & Solutions",
+                "description": "Developing fast, responsive, and seamless websites & landing pages designed for optimal conversions."
+            }
+        ]
+    },
+    "contactPage": {
+        "title": "Contact Us",
+        "mapTitle": "Our Location on Map",
+        "breadcrumb": "Contact Us",
+        "badge": "We Are Here to Help",
+        "subtitle": "Have a question or a project in mind? Reach out to us today and let's discuss how we can take your brand to the next level.",
+        "info": {
+            "title": "Contact Information",
+            "phone": "Phone Number",
+            "email": "Email Address",
+            "address": "Location",
+            "addressText": "Highway, Opposite Al-Dahshoury Showroom, After Abou Hashima St., Al-Ayyat, Giza",
+            "workingHours": "Working Hours",
+            "hoursText": "Sat - Thu: 9:00 AM - 5:00 PM"
+        },
+        "form": {
+            "title": "Send Us a Message",
+            "nameLabel": "Full Name",
+            "namePlaceholder": "Enter your full name",
+            "emailLabel": "Email Address",
+            "emailPlaceholder": "example@domain.com",
+            "phoneLabel": "Phone / WhatsApp Number",
+            "phonePlaceholder": "+20 10xxxxxxxx",
+            "serviceLabel": "Required Service",
+            "serviceSelect": "Select a service...",
+            "services": {
+                "ads": "Paid Advertising",
+                "social": "Social Media Management",
+                "content": "Content Creation & Production",
+                "branding": "Visual Identity & Branding",
+                "dev": "Web Development & Software"
+            },
+            "messageLabel": "Project Details / Message",
+            "messagePlaceholder": "Tell us more about your project or inquiry...",
+            "submitBtn": "Send Message",
+            "sending": "Sending..."
+        }
+    },
+    "servicesData": {
+        "paid-ads": {
+        "title": "Paid Ads Campaigns",
+        "subtitle": "Targeted paid ad campaigns to reach your ideal customers",
+        "description": "We design and run precisely targeted paid ad campaigns across Meta (Facebook & Instagram), Google, and TikTok, focusing on reaching the right audience and achieving the highest Return on Ad Spend (ROAS).",
+        "features": [
+            "Precise audience targeting based on interests and behaviors",
+            "Ad budget management and optimization to lower acquisition costs",
+            "Persuasive, conversion-oriented copywriting",
+            "Continuous A/B testing for creative concepts and visuals",
+            "Detailed periodic performance and analytics reports"
+        ],
+        "whyUsTitle": "Why Rely on Al-3Ahed for Your Ads?",
+        "whyUsSubtitle": "We avoid common market pitfalls to guarantee maximum return on your ad spend",
+        "whyUs": [
+            {
+            "problem": "Wasting budget on random, inaccurate audience targeting",
+            "solution": "In-depth consumer behavior research and tailored targeting that turns every dollar into tangible results"
+            },
+            {
+            "problem": "Disabled ad accounts and vague reports without real ROI",
+            "solution": "Professional account management, accurate tracking, and completely transparent performance reports"
+            },
+            {
+            "problem": "Relying on a single creative and neglecting A/B testing",
+            "solution": "Continuous testing of angles and visuals to achieve the lowest Cost Per Acquisition (CPA)"
+            }
+        ]
+        },
+        "social-media": {
+        "title": "Social Media Management",
+        "subtitle": "Complete page management with growth strategies and continuous engagement",
+        "description": "Comprehensive professional management for your social media channels. We build cohesive content that reflects your brand identity and ensure steady interaction to build audience trust.",
+        "features": [
+            "Organized content calendar and consistent publishing schedule",
+            "Crafting creative posts tailored to each platform's nature",
+            "Community engagement and prompt response to inquiries",
+            "Competitor analysis and market trend monitoring",
+            "Profile optimization, aesthetics, and bio refinement"
+        ],
+        "whyUsTitle": "How Do We Manage Your Pages Differently?",
+        "whyUsSubtitle": "We move away from routine posting to build a genuine community for your brand",
+        "whyUs": [
+            {
+            "problem": "Posting rigid, routine content without an engagement strategy",
+            "solution": "Crafting interactive, creative content that connects with followers and drives sales"
+            },
+            {
+            "problem": "Delayed message responses and poor customer communication",
+            "solution": "Continuous monitoring and fast response times to boost conversion rates from inquiries to sales"
+            },
+            {
+            "problem": "Neglecting visual identity and overall profile aesthetics",
+            "solution": "Complete feed and bio styling that conveys brand professionalism from first glance"
+            }
+        ]
+        },
+        "content-creation": {
+        "title": "Content Creation & Direction",
+        "subtitle": "Creative content connecting your brand with the right audience",
+        "description": "We craft and produce compelling content that highlights the value of your products or services, engaging followers and turning them into loyal clients for Al-Ahed.",
+        "features": [
+            "Ad scriptwriting and short-form video scripting",
+            "Creating awareness and sales funnel content",
+            "Developing fresh, innovative ideas tailored to your niche",
+            "Optimizing content for search engines and social algorithms"
+        ],
+        "whyUsTitle": "Why Does Al-3Ahed's Content Make a Difference?",
+        "whyUsSubtitle": "We avoid generic scripts and craft content that addresses pain points and drives action",
+        "whyUs": [
+            {
+            "problem": "Copying traditional ideas and repeating competitor content",
+            "solution": "Developing unique script concepts that express your project's identity and grab attention"
+            },
+            {
+            "problem": "Focusing on fluffy wording without providing real value",
+            "solution": "Conversion-focused copywriting grounded in marketing psychology"
+            },
+            {
+            "problem": "Weak Call-to-Actions and missing strategic marketing goals",
+            "solution": "Linking every piece of content to a clear objective within the marketing sales funnel"
+            }
+        ]
+        },
+        "graphic-design": {
+        "title": "Graphic Design & Visual Identity",
+        "subtitle": "Professional designs building a strong, lasting impression",
+        "description": "We design unique visual identities and promotional artwork that leave a memorable impression on your audience, across digital channels and print media.",
+        "features": [
+            "Logo design and complete Brand Guidelines development",
+            "Daily social media posts and ad campaign visuals",
+            "Commercial print designs (business cards, company profiles, banners)",
+            "Outdoor advertising billboards and store frontage design"
+        ],
+        "whyUsTitle": "Stand Out with Unforgettable Designs",
+        "whyUsSubtitle": "We avoid pre-made templates to create a truly distinct visual identity for your business",
+        "whyUs": [
+            {
+            "problem": "Using overused templates that diminish brand uniqueness",
+            "solution": "100% custom, innovative designs reflecting your brand's market strength"
+            },
+            {
+            "problem": "Inconsistent visual branding and non-standardized colors",
+            "solution": "Comprehensive Brand Guidelines ensuring consistency across all marketing platforms"
+            },
+            {
+            "problem": "Delivering low-resolution files unsuitable for print or advertising",
+            "solution": "High-resolution deliverables customized for every digital platform and print spec"
+            }
+        ]
+        },
+        "video-production": {
+        "title": "Video Production & Editing",
+        "subtitle": "High-impact videos and reels designed to capture attention",
+        "description": "Production of short-form and promotional videos with professional editing and modern effects, turning your ideas into engaging visual stories with maximum reach.",
+        "features": [
+            "Editing short-form reels and TikTok content",
+            "Adding motion graphics, visual effects, and sound design",
+            "Professional color grading and seamless scene transitions",
+            "Directing commercial ads and brand promo videos"
+        ],
+        "whyUsTitle": "Videos That Grab Attention and Maximize Reach",
+        "whyUsSubtitle": "We move past slow-paced editing to deliver fast-paced, dynamic modern video content",
+        "whyUs": [
+            {
+            "problem": "Slow, boring video editing that causes viewers to drop off early",
+            "solution": "Fast-paced editing with modern sound and visual effects that hold attention to the end"
+            },
+            {
+            "problem": "Poor color grading and low audio quality lowering ad perception",
+            "solution": "Professional audio engineering and cinematic color grading for a high-end feel"
+            },
+            {
+            "problem": "Neglecting on-screen subtitles and animated text captions",
+            "solution": "Dynamic captions so users can fully engage with the video even with sound muted"
+            }
+        ]
+        },
+        "marketing-strategy": {
+        "title": "Marketing Strategies",
+        "subtitle": "Data-driven marketing plans for sustainable growth",
+        "description": "We build comprehensive marketing strategies based on detailed market and competitor research, identifying optimal channels and sales funnels to achieve your targets.",
+        "features": [
+            "Thorough target audience and competitor analysis",
+            "Identifying the most effective marketing channels for your business",
+            "Establishing clear timelines and realistic marketing budgets",
+            "Conducting SWOT analysis to uncover key growth opportunities"
+        ],
+        "whyUsTitle": "Actionable, Practical Plans — Not Just Paperwork",
+        "whyUsSubtitle": "We analyze market gaps to give you a clear roadmap toward maximum growth",
+        "whyUs": [
+            {
+            "problem": "Delivering overly complex theoretical plans that are hard to execute",
+            "solution": "A realistic action plan with clear timelines, budgets, and step-by-step execution"
+            },
+            {
+            "problem": "Market analysis based on guesswork without real data",
+            "solution": "Data-backed competitor and consumer research rooted in real market facts"
+            },
+            {
+            "problem": "Lack of flexibility to adapt the strategy when market dynamics change",
+            "solution": "Regular performance tracking and strategy optimization to adapt to market shifts"
+            }
+        ]
+        }
+    }
+}
