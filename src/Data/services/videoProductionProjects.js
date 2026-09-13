@@ -1,41 +1,3 @@
-// =====================================================
-// AI VIDEO
-// =====================================================
-
-import ai1 from "../../assets/images/services/video-production/ai/ai-1.mp4";
-import ai2 from "../../assets/images/services/video-production/ai/ai-2.mp4";
-import ai3 from "../../assets/images/services/video-production/ai/ai-3.mp4";
-import ai4 from "../../assets/images/services/video-production/ai/ai-4.mp4";
-
-
-// =====================================================
-// ANIMATION VIDEO
-// =====================================================
-
-import animationVideo1 from "../../assets/images/services/video-production/Animated video/Animated-video-1.mp4";
-import animationVideo2 from "../../assets/images/services/video-production/Animated video/Animated-video-2.mp4";
-import animationVideo3 from "../../assets/images/services/video-production/Animated video/Animated-video-3.mp4";
-import animationVideo4 from "../../assets/images/services/video-production/Animated video/Animated-video-4.mp4";
-import animationVideo5 from "../../assets/images/services/video-production/Animated video/Animated-video-5.mp4";
-
-
-// =====================================================
-// VIDEO PRODUCTION
-// =====================================================
-
-import video1 from "../../assets/images/services/video-production/video/1.mp4";
-import video2 from "../../assets/images/services/video-production/video/2.mp4";
-import video3 from "../../assets/images/services/video-production/video/3.mp4";
-import video4 from "../../assets/images/services/video-production/video/4.mp4";
-import video5 from "../../assets/images/services/video-production/video/5.mp4";
-import video6 from "../../assets/images/services/video-production/video/6.mp4";
-import video7 from "../../assets/images/services/video-production/video/7.mp4";
-
-
-// =====================================================
-// VIDEO PRODUCTION PROJECTS
-// =====================================================
-
 const videoProductionProjects = [
 
     // =========================
@@ -46,22 +8,22 @@ const videoProductionProjects = [
     {
         id: 1,
         category: "ai",
-        image: ai1,
+        image: "https://res.cloudinary.com/epez1rmm/video/upload/v1789211390/1.mp4",
     },
     {
         id: 2,
         category: "ai",
-        image: ai2,
+        image: "https://res.cloudinary.com/epez1rmm/video/upload/v1789286127/2.mp4",
     },
     {
         id: 3,
         category: "ai",
-        image: ai3,
+        image: "https://res.cloudinary.com/epez1rmm/video/upload/v1789286186/3.mp4",
     },
     {
         id: 4,
         category: "ai",
-        image: ai4,
+        image: "https://res.cloudinary.com/epez1rmm/video/upload/v1789286228/4.mp4",
     },
 
 
@@ -73,27 +35,27 @@ const videoProductionProjects = [
     {
         id: 5,
         category: "animation",
-        image: animationVideo1,
+        image: "https://res.cloudinary.com/epez1rmm/video/upload/v1789289803/anim-1.mp4",
     },
     {
         id: 6,
         category: "animation",
-        image: animationVideo2,
+        image: "https://res.cloudinary.com/epez1rmm/video/upload/v1789289784/anim-2.mp4",
     },
     {
         id: 7,
         category: "animation",
-        image: animationVideo3,
+        image: "https://res.cloudinary.com/epez1rmm/video/upload/v1789289778/anim-3.mp4",
     },
     {
         id: 8,
         category: "animation",
-        image: animationVideo4,
+        image: "https://res.cloudinary.com/epez1rmm/video/upload/v1789289825/anim-4.mp4",
     },
     {
         id: 9,
         category: "animation",
-        image: animationVideo5,
+        image: "https://res.cloudinary.com/epez1rmm/video/upload/v1789289800/anim-5.mp4",
     },
 
 
@@ -105,37 +67,37 @@ const videoProductionProjects = [
     {
         id: 10,
         category: "video",
-        image: video1,
+        image: "https://res.cloudinary.com/epez1rmm/video/upload/v1789290362/V-1.mp4",
     },
     {
         id: 11,
         category: "video",
-        image: video2,
+        image: "https://res.cloudinary.com/epez1rmm/video/upload/v1789290348/V-2.mp4",
     },
     {
         id: 12,
         category: "video",
-        image: video3,
+        image: "https://res.cloudinary.com/epez1rmm/video/upload/v1789290355/V-3.mp4",
     },
     {
         id: 13,
         category: "video",
-        image: video4,
+        image: "https://res.cloudinary.com/epez1rmm/video/upload/v1789290400/V-4.mp4",
     },
     {
         id: 14,
         category: "video",
-        image: video5,
+        image: "https://res.cloudinary.com/epez1rmm/video/upload/v1789290797/V-5.mp4",
     },
     {
         id: 15,
         category: "video",
-        image: video6,
+        image: "https://res.cloudinary.com/epez1rmm/video/upload/v1789290174/V-6.mp4",
     },
     {
         id: 16,
         category: "video",
-        image: video7,
+        image: "https://res.cloudinary.com/epez1rmm/video/upload/v1789290235/V-7.mp4",
     },
 ];
 
