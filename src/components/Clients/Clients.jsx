@@ -5,7 +5,7 @@ import logo1 from "../../assets/images/Clients/logo1.jpeg";
 import logo2 from "../../assets/images/Clients/logo2.jpeg";
 import logo3 from "../../assets/images/Clients/logo3.jpg";
 import logo4 from "../../assets/images/Clients/logo4.png";
-import logo5 from "../../assets/images/clients/logo5.png";
+import logo5 from "../../assets/images/Clients/logo5.png";
 import logo6 from "../../assets/images/Clients/logo6.png";
 import logo7 from "../../assets/images/Clients/logo7.png";
 import logo8 from "../../assets/images/Clients/logo8.png";
