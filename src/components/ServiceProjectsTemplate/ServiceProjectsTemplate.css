@@ -1,26 +1,32 @@
-/* ================================
-   SECTION
-================================ */
+/* ==========================================
+   PROJECTS SECTION
+========================================== */
 
 .al3-projects-section {
     width: 100%;
-    padding: 90px 0;
+    padding: 80px 0;
     background: #f7f9fc;
 }
 
+/*
+   Bootstrap container
+   Maximum width controlled here
+   to keep cards compact and centered.
+*/
+
 .al3-projects-container {
-    width: min(1500px, 90%);
-    margin: 0 auto;
+    max-width: 1250px;
 }
 
 
-/* ================================
+/* ==========================================
    HEADER
-================================ */
+========================================== */
 
 .al3-projects-header {
+    max-width: 820px;
+    margin: 0 auto 45px;
     text-align: center;
-    margin-bottom: 55px;
 }
 
 .al3-projects-badge {
@@ -28,17 +34,16 @@
     align-items: center;
     justify-content: center;
 
-    padding: 11px 24px;
+    padding: 9px 20px;
+    margin-bottom: 18px;
 
-    border-radius: 30px;
+    border-radius: 50px;
 
     background: #e8f4fd;
     color: #20a7e8;
 
     font-size: 14px;
     font-weight: 700;
-
-    margin-bottom: 20px;
 }
 
 .al3-projects-title {
@@ -46,66 +51,54 @@
 
     color: #06143b;
 
-    font-size: clamp(34px, 4vw, 56px);
+    font-size: clamp(32px, 4vw, 52px);
     font-weight: 800;
-
     line-height: 1.2;
 }
 
 .al3-projects-line {
     display: block;
 
-    width: 94px;
+    width: 80px;
     height: 4px;
 
-    margin: 24px auto 28px;
+    margin: 20px auto 22px;
 
-    border-radius: 10px;
+    border-radius: 50px;
 
     background: #29a9e8;
 }
 
 .al3-projects-subtitle {
-    max-width: 850px;
+    max-width: 760px;
 
     margin: 0 auto;
 
     color: #53708f;
 
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.8;
 }
 
 
-/* ================================
+/* ==========================================
    FILTER
-================================ */
+========================================== */
 
-.al3-projects-categories {
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-
-    flex-wrap: wrap;
-
-    gap: 12px;
-
-    margin-bottom: 45px;
+.al3-projects-filters {
+    margin-bottom: 35px;
 }
 
 .al3-projects-category {
+    padding: 9px 19px;
+
     border: 1px solid #d7e5ef;
+    border-radius: 50px;
 
     background: #ffffff;
-
     color: #4c6781;
 
-    padding: 11px 24px;
-
-    border-radius: 30px;
-
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
 
     cursor: pointer;
@@ -127,60 +120,31 @@
 }
 
 .al3-projects-category.active {
-    background: #20a7e8;
-
     border-color: #20a7e8;
 
+    background: #20a7e8;
     color: #ffffff;
 
-    box-shadow: 0 8px 20px rgba(32, 167, 232, 0.18);
+    box-shadow: 0 7px 18px rgba(32, 167, 232, 0.18);
 }
 
 
-/* ================================
-   image
-================================ */
-
-.al3-project-image img{
-    width: 100%;
-    height: 100%;
-    transition: 0.5s;
-}
-.al3-project-image img:hover{
-    transform: scale(1.04);
-}
-
-/* ================================
-   GRID
-================================ */
-
-.al3-projects-grid {
-    display: grid;
-
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-
-    gap: 30px;
-}
-
-
-/* ================================
+/* ==========================================
    CARD
-================================ */
+========================================== */
 
 .al3-project-card {
-    position: relative;
-    
-    min-height: 230px;
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
 
     background: #ffffff;
 
     border: 1px solid #e3e9ef;
+    border-radius: 18px;
 
-    border-radius: 20px;
-
-    overflow: hidden;
-
-    box-shadow: 0 8px 25px rgba(13, 35, 64, 0.06);
+    box-shadow: 0 7px 22px rgba(13, 35, 64, 0.06);
 
     transition:
         transform 0.3s ease,
@@ -189,351 +153,185 @@
 }
 
 .al3-project-card:hover {
-    transform: translateY(-6px);
+    transform: translateY(-5px);
 
     border-color: #d3e6f2;
 
-    box-shadow: 0 18px 40px rgba(13, 35, 64, 0.10);
+    box-shadow: 0 15px 32px rgba(13, 35, 64, 0.10);
 }
 
-/* ================================
-   CARD TOP ACCENT
-================================ */
 
-.al3-project-card-accent {
+/* ==========================================
+   PROJECT MEDIA
+========================================== */
+
+.al3-project-media {
     width: 100%;
+    overflow: hidden;
 
-    height: 5px;
-
-    background: linear-gradient(
-        90deg,
-        #06143b,
-        #29a9e8
-    );
+    background: #f2f5f8;
 }
 
 
-/* ================================
+/* ==========================================
+   IMAGE PROJECTS
+========================================== */
+
+.al3-project-media img {
+    display: block;
+
+    width: 100%;
+    aspect-ratio: 1 / 1;
+
+    object-fit: cover;
+
+    transition: transform 0.4s ease;
+}
+
+.al3-project-card:hover .al3-project-media img {
+    transform: scale(1.03);
+}
+
+
+/* ==========================================
    CARD CONTENT
-================================ */
+========================================== */
 
 .al3-project-content {
-    padding: 20px 30px;
+    padding: 16px 18px 19px;
+
     text-align: center;
 }
+
 .al3-project-title {
-    margin: 0 0 10px;
+    margin: 0 0 7px;
+
     color: #071535;
-    font-size: 22px;
+
+    font-size: 18px;
     font-weight: 800;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 .al3-project-description {
     margin: 0;
+
     color: #617b96;
-    font-size: 16px;
+
+    font-size: 14px;
     line-height: 1.6;
 }
 
 
-/* ================================
-   EMPTY
-================================ */
+/* ==========================================
+   GRAPHIC DESIGN
+========================================== */
+
+.al3-project-card--design {
+    border-radius: 20px;
+}
+
+.al3-project-card--design .al3-project-media {
+    aspect-ratio: 1 / 1;
+
+    background: #f2f5f8;
+}
+
+.al3-project-card--design .al3-project-media img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.al3-project-card--design .al3-project-content {
+    padding: 15px 18px 18px;
+}
+
+.al3-project-card--design .al3-project-title {
+    margin-bottom: 6px;
+
+    font-size: 18px;
+}
+
+.al3-project-card--design .al3-project-description {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+
+/* ==========================================
+   VIDEO PRODUCTION
+========================================== */
+
+.al3-project-card--video {
+    border-radius: 18px;
+}
+
+.al3-project-card--video .al3-project-media {
+    background: #111;
+}
+
+.al3-project-card--video video {
+    display: block;
+
+    width: 100%;
+    height: 300px;
+
+    object-fit: contain;
+
+    background: #111;
+}
+
+.al3-project-card--video .al3-project-content {
+    padding: 15px 18px 18px;
+}
+
+.al3-project-card--video .al3-project-title {
+    margin-bottom: 6px;
+
+    font-size: 18px;
+}
+
+.al3-project-card--video .al3-project-description {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+
+/* ==========================================
+   EMPTY STATE
+========================================== */
 
 .al3-projects-empty {
-    grid-column: 1 / -1;
-
-    min-height: 220px;
+    min-height: 200px;
 
     display: flex;
-
     flex-direction: column;
-
+    align-items: center;
     justify-content: center;
 
-    align-items: center;
+    gap: 12px;
 
-    gap: 15px;
-
-    background: #ffffff;
+    padding: 30px;
 
     border: 1px dashed #ccdbe7;
+    border-radius: 18px;
 
-    border-radius: 20px;
-
+    background: #ffffff;
     color: #71879c;
 
     text-align: center;
 }
 
 .al3-projects-empty i {
-    font-size: 40px;
+    font-size: 36px;
 }
 
 .al3-projects-empty p {
     margin: 0;
 
-    font-size: 16px;
-}
-
-/* ================================
-   RESPONSIVE
-================================ */
-
-@media (max-width: 1100px) {
-
-    .al3-projects-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-}
-
-
-@media (max-width: 700px) {
-
-    .al3-projects-section {
-        padding: 65px 0;
-    }
-
-    .al3-projects-container {
-        width: 92%;
-    }
-
-    .al3-projects-header {
-        margin-bottom: 40px;
-    }
-
-    .al3-projects-title {
-        font-size: 34px;
-    }
-
-    .al3-projects-subtitle {
-        font-size: 16px;
-    }
-
-    .al3-projects-categories {
-        gap: 8px;
-
-        margin-bottom: 30px;
-    }
-
-    .al3-projects-category {
-        padding: 9px 17px;
-
-        font-size: 14px;
-    }
-
-    .al3-projects-grid {
-        grid-template-columns: 1fr;
-
-        gap: 20px;
-    }
-
-    .al3-project-card {
-        min-height: auto;
-    }
-
-    .al3-project-content {
-        padding: 25px;
-    }
-
-    .al3-project-title {
-        font-size: 20px;
-    }
-
-    .al3-project-description {
-        font-size: 15px;
-    }
-
-}
-
-/* ==========================================
-   GRAPHIC DESIGN CARDS
-========================================== */
-
-.al3-project-card-design {
-    border-radius: 24px;
-    overflow: hidden;
-    background: #ffffff;
-    border: 1px solid #e3eaf1;
-    box-shadow: 0 10px 30px rgba(10, 35, 70, 0.07);
-}
-
-/* الصورة */
-
-.al3-project-card-design .al3-project-image {
-    aspect-ratio: 1 / 1;
-    background: #f2f5f8;
-}
-
-.al3-project-card-design .al3-project-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-/* المحتوى */
-
-.al3-project-card-design .al3-project-content {
-    padding: 24px 26px 28px;
-    text-align: center;
-}
-
-.al3-project-card-design .al3-project-title {
-    margin: 0 0 12px;
-
-    font-size: 21px;
-    font-weight: 800;
-
-    color: #071535;
-
-    line-height: 1.5;
-}
-
-.al3-project-card-design .al3-project-description {
-    margin: 0;
-
     font-size: 15px;
-    line-height: 1.8;
-
-    color: #667b91;
-}
-
-/* Hover */
-
-.al3-project-card-design {
-    transition:
-        transform 0.3s ease,
-        box-shadow 0.3s ease;
-}
-
-.al3-project-card-design:hover {
-    transform: translateY(-7px);
-
-    box-shadow: 0 18px 40px rgba(10, 35, 70, 0.12);
-}
-
-.al3-project-card-design:hover .al3-project-image img {
-    transform: scale(1.03);
-}
-
-/* ==========================================
-   VIDEO PRODUCTION
-========================================== */
-
-.al3-project-card-video {
-    width: 100%;
-    min-width: 0;
-
-    background: #ffffff;
-
-    border: 1px solid #e3e9ef;
-
-    border-radius: 20px;
-
-    overflow: hidden;
-
-    box-shadow: 0 8px 25px rgba(13, 35, 64, 0.06);
-
-    transition:
-        transform 0.3s ease,
-        box-shadow 0.3s ease,
-        border-color 0.3s ease;
-}
-
-
-/* ================================
-   HOVER
-================================ */
-
-.al3-project-card-video:hover {
-    transform: translateY(-6px);
-
-    border-color: #d3e6f2;
-
-    box-shadow: 0 18px 40px rgba(13, 35, 64, 0.12);
-}
-
-
-/* ================================
-   VIDEO BOX
-================================ */
-
-.al3-project-card-video .al3-project-image {
-    width: 100%;
-
-    /*
-        حجم موحد لكل الفيديوهات
-    */
-    height: 420px;
-
-    overflow: hidden;
-
-    background: #111;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-}
-
-
-/* ================================
-   VIDEO
-================================ */
-
-.al3-project-card-video .al3-project-image video {
-    width: 100%;
-
-    height: 100%;
-
-    display: block;
-
-    /*
-        الفيديو يظهر كامل
-        بدون ما يتقص
-    */
-    object-fit: contain;
-
-    background: #111;
-}
-
-
-/* ================================
-   CONTENT
-================================ */
-
-.al3-project-card-video .al3-project-content {
-    padding: 20px 24px 24px;
-
-    text-align: center;
-}
-
-
-.al3-project-card-video .al3-project-title {
-    margin: 0 0 10px;
-
-    color: #071535;
-
-    font-size: 20px;
-
-    font-weight: 800;
-
-    line-height: 1.5;
-}
-
-
-.al3-project-card-video .al3-project-description {
-    margin: 0;
-
-    color: #617b96;
-
-    font-size: 15px;
-
-    line-height: 1.7;
 }
 
 
@@ -541,10 +339,10 @@
    TABLET
 ========================================== */
 
-@media (max-width: 1100px) {
+@media (max-width: 991.98px) {
 
-    .al3-project-card-video .al3-project-image {
-        height: 380px;
+    .al3-projects-container {
+        max-width: 900px;
     }
 
 }
@@ -554,10 +352,48 @@
    MOBILE
 ========================================== */
 
-@media (max-width: 700px) {
+@media (max-width: 767.98px) {
 
-    .al3-project-card-video .al3-project-image {
-        height: 500px;
+    .al3-projects-section {
+        padding: 60px 0;
+    }
+
+    .al3-projects-header {
+        margin-bottom: 35px;
+    }
+
+    .al3-projects-title {
+        font-size: 32px;
+    }
+
+    .al3-projects-subtitle {
+        font-size: 15px;
+    }
+
+    .al3-projects-filters {
+        margin-bottom: 30px;
+    }
+
+    .al3-projects-category {
+        padding: 8px 16px;
+
+        font-size: 13px;
+    }
+
+    .al3-project-content {
+        padding: 15px 17px 18px;
+    }
+
+    .al3-project-title {
+        font-size: 17px;
+    }
+
+    .al3-project-description {
+        font-size: 13px;
+    }
+
+    .al3-project-card--video video {
+        height: 340px;
     }
 
 }

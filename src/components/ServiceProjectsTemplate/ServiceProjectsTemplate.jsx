@@ -15,26 +15,27 @@ const ServiceProjectsTemplate = ({
         return null;
     }
 
-    /*
-        Categories
-        من ملف JSON
-    */
+    /* ==========================================
+       CATEGORIES
+    ========================================== */
+
     const categories = Array.isArray(serviceData.categories)
         ? serviceData.categories
         : [];
 
-    /*
-        Projects
-        من ملف JS
-    */
+    /* ==========================================
+       PROJECTS
+    ========================================== */
+
     const projects = Array.isArray(projectsData)
         ? projectsData
         : [];
 
-    /*
-        النصوص
-        من ملف JSON
-    */
+    /* ==========================================
+       PROJECT TEXTS
+       FROM JSON
+    ========================================== */
+
     const projectTexts =
         serviceData.projects &&
         typeof serviceData.projects === "object" &&
@@ -42,18 +43,10 @@ const ServiceProjectsTemplate = ({
             ? serviceData.projects
             : {};
 
-    /*
-        دمج بيانات المشروع
+    /* ==========================================
+       MERGE PROJECT DATA
+    ========================================== */
 
-        من JS:
-        - id
-        - category
-        - image
-
-        من JSON:
-        - title
-        - description
-    */
     const mergedProjects = projects
         .map((project) => {
             const textData =
@@ -72,6 +65,10 @@ const ServiceProjectsTemplate = ({
                 project.title || project.description
         );
 
+    /* ==========================================
+       CURRENT CATEGORY
+    ========================================== */
+
     const categoryExists =
         activeCategory === "all" ||
         categories.some(
@@ -83,27 +80,44 @@ const ServiceProjectsTemplate = ({
         ? activeCategory
         : "all";
 
-    /*
-        Filter
-    */
+    /* ==========================================
+       FILTER PROJECTS
+    ========================================== */
+
     const filteredProjects =
         currentCategory === "all"
             ? mergedProjects
             : mergedProjects.filter(
-                    (project) =>
-                        project.category === currentCategory
-                );
+                (project) =>
+                    project.category === currentCategory
+            );
+
+    /* ==========================================
+       CARD CLASS
+    ========================================== */
+
+    const getCardClass = () => {
+        if (variant === "graphic-design") {
+            return "al3-project-card al3-project-card--design";
+        }
+
+        if (variant === "video-production") {
+            return "al3-project-card al3-project-card--video";
+        }
+
+        return "al3-project-card";
+    };
 
     return (
         <section className="al3-projects-section">
 
-            <div className="al3-projects-container">
+            <div className="container al3-projects-container">
 
-                {/* =========================
+                {/* ==========================================
                     HEADER
-                ========================= */}
+                ========================================== */}
 
-                <div className="al3-projects-header">
+                <header className="al3-projects-header">
 
                     <span className="al3-projects-badge">
                         {t(
@@ -118,7 +132,10 @@ const ServiceProjectsTemplate = ({
                         )}
                     </h2>
 
-                    <span className="al3-projects-line"></span>
+                    <span
+                        className="al3-projects-line"
+                        aria-hidden="true"
+                    />
 
                     <p className="al3-projects-subtitle">
                         {t(
@@ -127,105 +144,138 @@ const ServiceProjectsTemplate = ({
                         )}
                     </p>
 
-                </div>
+                </header>
 
 
-                {/* =========================
+                {/* ==========================================
                     FILTER
-                ========================= */}
+                ========================================== */}
 
                 {categories.length > 0 && (
-                    <div className="al3-projects-categories">
+                    <div className="al3-projects-filters">
 
-                        {categories.map((category) => (
-                            <button
-                                key={category.key}
-                                type="button"
-                                className={`al3-projects-category ${
-                                    currentCategory === category.key
-                                        ? "active"
-                                        : ""
-                                }`}
-                                onClick={() =>
-                                    setActiveCategory(category.key)
-                                }
-                            >
-                                {category.label}
-                            </button>
-                        ))}
+                        <div className="d-flex flex-wrap justify-content-center gap-2">
+
+                            {categories.map((category) => (
+                                <button
+                                    key={category.key}
+                                    type="button"
+                                    className={`al3-projects-category ${
+                                        currentCategory === category.key
+                                            ? "active"
+                                            : ""
+                                    }`}
+                                    onClick={() =>
+                                        setActiveCategory(
+                                            category.key
+                                        )
+                                    }
+                                >
+                                    {category.label}
+                                </button>
+                            ))}
+
+                        </div>
 
                     </div>
                 )}
 
 
-                {/* =========================
+                {/* ==========================================
                     PROJECTS GRID
-                ========================= */}
+                ========================================== */}
 
-                <div className="al3-projects-grid">
+                <div className="row g-4 justify-content-center">
 
                     {filteredProjects.length > 0 ? (
 
                         filteredProjects.map((project) => (
 
-                            <article
+                            <div
                                 key={project.id}
-                                className={`al3-project-card ${
-                                    variant === "graphic-design"
-                                        ? "al3-project-card-design"
-                                        : variant === "video-production"
-                                        ? "al3-project-card-video"
-                                        : ""
-                                }`}
+                                className="col-12 col-md-6 col-lg-4"
                             >
-                                {project.image && (
-                                    <div className="al3-project-image">
 
-                                        {variant === "video-production" ? (
-                                            <video
-                                                src={project.image}
-                                                controls
-                                                muted
-                                                playsInline
-                                                preload="metadata"
-                                            />
-                                        ) : (
-                                            <img
-                                                src={project.image}
-                                                alt={project.title || ""}
-                                                loading="lazy"
-                                            />
+                                <article
+                                    className={getCardClass()}
+                                >
+
+                                    {/* ==========================================
+                                        PROJECT MEDIA
+                                    ========================================== */}
+
+                                    {project.image && (
+                                        <div className="al3-project-media">
+
+                                            {variant === "video-production" ? (
+
+                                                <video
+                                                    src={project.image}
+                                                    controls
+                                                    muted
+                                                    playsInline
+                                                    preload="metadata"
+                                                />
+
+                                            ) : (
+
+                                                <img
+                                                    src={project.image}
+                                                    alt={
+                                                        project.title ||
+                                                        "Project"
+                                                    }
+                                                    loading="lazy"
+                                                />
+
+                                            )}
+
+                                        </div>
+                                    )}
+
+
+                                    {/* ==========================================
+                                        PROJECT CONTENT
+                                    ========================================== */}
+
+                                    <div className="al3-project-content">
+
+                                        {project.title && (
+                                            <h3 className="al3-project-title">
+                                                {project.title}
+                                            </h3>
+                                        )}
+
+                                        {project.description && (
+                                            <p className="al3-project-description">
+                                                {project.description}
+                                            </p>
                                         )}
 
                                     </div>
-                                )}
 
-                                <div className="al3-project-content">
+                                </article>
 
-                                    <h3 className="al3-project-title">
-                                        {project.title}
-                                    </h3>
+                            </div>
 
-                                    <p className="al3-project-description">
-                                        {project.description}
-                                    </p>
-
-                                </div>
-                            </article>
                         ))
 
                     ) : (
 
-                        <div className="al3-projects-empty">
+                        <div className="col-12">
 
-                            <i className="fa-solid fa-folder-open"></i>
+                            <div className="al3-projects-empty">
 
-                            <p>
-                                {t(
-                                    "services.projects.empty",
-                                    "No projects available."
-                                )}
-                            </p>
+                                <i className="fa-solid fa-folder-open"></i>
+
+                                <p>
+                                    {t(
+                                        "services.projects.empty",
+                                        "No projects available."
+                                    )}
+                                </p>
+
+                            </div>
 
                         </div>
 

@@ -1,9 +1,9 @@
-import contentCreation1 from "../../assets/images/services/content-creation/1.jpg";
-import contentCreation2 from "../../assets/images/services/content-creation/1.jpg";
-import contentCreation3 from "../../assets/images/services/content-creation/1.jpg";
-import contentCreation4 from "../../assets/images/services/content-creation/1.jpg";
-import contentCreation5 from "../../assets/images/services/content-creation/1.jpg";
-import contentCreation6 from "../../assets/images/services/content-creation/1.jpg";
+import contentCreation1 from "../../assets/images/services/content-creation/content-creation-1.jpeg";
+import contentCreation2 from "../../assets/images/services/content-creation/content-creation-2.jpeg";
+import contentCreation3 from "../../assets/images/services/content-creation/content-creation-3.jpeg";
+import contentCreation4 from "../../assets/images/services/content-creation/content-creation-4.jpeg";
+import contentCreation5 from "../../assets/images/services/content-creation/content-creation-5.jpeg";
+import contentCreation6 from "../../assets/images/services/content-creation/content-creation-6.jpeg";
 
 const contentCreationProjects = [
     {
